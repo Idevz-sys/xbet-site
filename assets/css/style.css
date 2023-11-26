@@ -88,7 +88,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.3380952381;
 }
 
@@ -202,6 +202,16 @@ select:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 1px solid #ddd;
+}
+
+#cards-robot {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
 .no-gutter.row,
