@@ -45,7 +45,7 @@ Version: 1.0.0
 -----------------*/
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --main-color: #FF0268;
+  --main-color: #11e70b;
   --main-color-2: #5E35B1;
   --heading-color: #101010;
   --paragraph-color: #505050;
@@ -4639,7 +4639,7 @@ ul {
   margin-bottom: 13px;
 }
 .blog-details-page-content blockquote {
-  background: #FF0268;
+  background: #11e70b;
   padding: 30px 40px;
   font-weight: 500;
   margin-top: 30px;
