@@ -3846,7 +3846,7 @@ ul {
   width: 20px;
   left: 50%;
   margin-left: -10px;
-  background: var(--main-color-2);
+  background: #11e70b;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
