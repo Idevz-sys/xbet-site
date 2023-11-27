@@ -1775,7 +1775,7 @@ ul {
   z-index: 999;
   -webkit-box-shadow: 0 10px 20px 0 rgba(46, 56, 220, 0.05);
   box-shadow: 0 10px 20px 0 rgba(46, 56, 220, 0.05);
-  background: var(--main-color-2);
+  background: #084a2b00;
 }
 
 .nav-right-part {
