@@ -3786,7 +3786,7 @@ ul {
   margin-bottom: 30px;
 }
 .match-start-time-inner .match-top {
-  background: var(--main-color);
+  background: #084a2b;
   border-radius: 7px;
 }
 .match-start-time-inner .match-top .thumb {
