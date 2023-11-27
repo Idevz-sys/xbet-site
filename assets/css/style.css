@@ -79,7 +79,7 @@ body {
   font-family: var(--body-font);
   line-height: var(--line-height30);
   font-size: var(--body-font-size);
-  background: #fff;
+  background: #000000;
 }
 
 h1 {
@@ -118,12 +118,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #fff;
   font-weight: 700;
 }
 
 p {
-  color: var(--paragraph-color);
+  color: #d0d0d0;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
@@ -2755,7 +2755,7 @@ ul {
 }
 
 .single-intro-inner {
-  background: #fff;
+  background: #000000;
   position: relative;
   margin-bottom: 30px;
   -webkit-transition: all 0.3s ease-in;
