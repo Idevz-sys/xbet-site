@@ -2753,6 +2753,9 @@ ul {
           box-shadow: 0 40px 20px rgba(195, 195, 195, 0.36);
   background-size: 100%;
 }
+#color-card{
+  background-color: #000000;
+}
 
 .single-intro-inner {
   background: #ffffff;
