@@ -635,7 +635,7 @@ ul {
 
 .btn-black {
   color: #fff;
-  background: #101010;
+  background: #094a2b;
 }
 .btn-black:active, .btn-black:focus, .btn-black:hover {
   color: #fff;
@@ -3748,9 +3748,9 @@ ul {
 /********* upcoming-match-inner **********/
 .upcoming-match-inner {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 33, 71, 0.08);
-          box-shadow: 0px 10px 30px rgba(0, 33, 71, 0.08);
+          box-shadow: 0px 10px 30px rgb(0 0 0 / 78%);
   padding: 20px;
-  border-radius: 7px;
+  border-radius: 25px;
   margin-bottom: 30px;
 }
 .upcoming-match-inner .name {
@@ -3781,13 +3781,13 @@ ul {
 /******* match-start-time-inner ********/
 .match-start-time-inner {
   background: #fff;
-  border-radius: 7px;
+  border-radius: 29px;
   margin-top: 60px;
   margin-bottom: 30px;
 }
 .match-start-time-inner .match-top {
   background: #084a2b;
-  border-radius: 7px;
+  border-radius: 28px;
 }
 .match-start-time-inner .match-top .thumb {
   margin-top: -60px;
@@ -3810,6 +3810,7 @@ ul {
   padding-bottom: 18px;
 }
 .match-start-time-inner .middle {
+  background-color: #ffffff;
   padding: 20px;
 }
 .match-start-time-inner .middle .upcoming-match-inner {
