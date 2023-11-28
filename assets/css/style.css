@@ -3731,7 +3731,7 @@ ul {
 .triper-table-body {
   border: 1px solid #F3F3F3;
   border-radius: 100px;
-  color: #505050;
+  color: #ffffff;
   overflow: hidden;
 }
 .triper-table-body .s-item {
@@ -3742,7 +3742,7 @@ ul {
   color: #fff;
 }
 .triper-table-body .tptb-bd-bg {
-  background: #F3F3F3;
+  background: #084a2b;
 }
 
 /********* upcoming-match-inner **********/
@@ -3838,7 +3838,7 @@ ul {
   border-radius: 0 !important;
   border: 1px solid #F3F3F3 !important;
   text-align: center;
-  color: var(--heading-color);
+  color: white;
   font-weight: 700;
   padding: 18px 10px;
 }
