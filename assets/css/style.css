@@ -2910,7 +2910,7 @@ ul {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #FFEEF5;
+  background: #ffffff;
   right: -20px;
   bottom: 0;
   -webkit-transition: 0.4s;
@@ -2924,7 +2924,7 @@ ul {
   color: var(--main-color);
 }
 .single-intro-inner.style-feature:hover .thumb:after {
-  background: #FCA6C9;
+  background: #ffffff;
 }
 
 .intro-slider .owl-nav {

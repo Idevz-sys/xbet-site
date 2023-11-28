@@ -2886,7 +2886,7 @@ ul {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #FFEEF5;
+  background: rgb(255, 255, 255);
   right: -20px;
   bottom: 0;
   -webkit-transition: 0.4s;
