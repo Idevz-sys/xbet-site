@@ -1219,7 +1219,7 @@ ul {
 }
 
 .bg-black {
-  background: var(--heading-color);
+  background: rgba(6, 92, 35, 0.181)5, 255, 255, 0);
 }
 
 .bg-light {
