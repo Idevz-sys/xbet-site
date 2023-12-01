@@ -213,7 +213,7 @@ select:focus {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
-  flex-wrap: wrap-reverse;
+  direction: row;
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x)/ -2);
   margin-left: calc(var(--bs-gutter-x)/ -2);
@@ -246,6 +246,7 @@ select:focus {
 code {
   color: #faa603;
 }
+
 
 .buttonapp{
   background-color: #084a2b;
