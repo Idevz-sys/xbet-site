@@ -257,6 +257,13 @@ code {
 
 }
 
+@media (max-width: 992px) {
+  #photo-about{
+    display: none;
+  }
+}
+
+
 .check-list {
   margin: 0;
   padding: 0;
