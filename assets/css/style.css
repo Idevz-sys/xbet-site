@@ -247,6 +247,16 @@ code {
   color: #faa603;
 }
 
+.buttonapp{
+  background-color: #084a2b;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  
+
+}
+
 .check-list {
   margin: 0;
   padding: 0;
