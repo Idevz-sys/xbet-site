@@ -125,7 +125,10 @@ h5,
 h6 {
   color: #fff;
   font-weight: 700;
+  margin: 0px;
 }
+
+
 
 p {
   color: #d0d0d0;
@@ -1370,6 +1373,8 @@ ul {
 
 .pd-bottom-100 {
   padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mg-bottom-100 {
@@ -2705,7 +2710,17 @@ ul {
   display: inline-block;
   margin-bottom: 0;
   color: var(--main-color);
+
 }
+@media (max-width: 991px) {
+  .banner-inner .sub-title {
+    
+    padding-top: 50px;
+  }
+}
+
+
+
 .banner-inner .sub-title.color-purple {
   color: #BE63F9;
 }
