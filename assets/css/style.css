@@ -2839,7 +2839,7 @@ ul {
 #color-card{
   background-color: #00000039;
   height: 350px;
-
+  border-radius: 23px;
 }
 
 .single-intro-inner {
