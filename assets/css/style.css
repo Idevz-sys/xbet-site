@@ -1400,6 +1400,28 @@ ul {
 }
 
 
+
+.text-in {
+  text-align: justify;
+  margin-left: 60px;
+}
+
+.text-in::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  
+}
+
+.text-in p {
+  display: inline-block;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+
 @media (max-width: 2000px){
   .buttonap{
     width: 30%; 
