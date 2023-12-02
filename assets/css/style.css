@@ -655,12 +655,35 @@ ul {
   width: 135%;
 }
 
+
+
+
 .btn-base {
   color: #fff;
   background: var(--main-color);
 }
 .btn-base:active, .btn-base:focus, .btn-base:hover {
   color: #fff;
+}
+
+
+
+@media (min-width: 200px) {
+  #footer-sub{
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 573px) {
+  #btn-resp{
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 427px) {
+  #btn-resp{
+    margin-top: 60px;
+  }
 }
 
 .btn-base-2 {
@@ -3354,7 +3377,7 @@ ul {
   right: 6px;
   top: 6px;
   border-radius: 0;
-  margin-top: 60px;
+
 }
 
 
