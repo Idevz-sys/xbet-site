@@ -1399,6 +1399,18 @@ ul {
   }
 }
 
+
+@media (max-width: 2000px){
+  .buttonap{
+    width: 30%; 
+    display: flex;
+    margin-left: 406px;
+  
+  
+  
+  }
+}
+
 @media (max-width: 1193px){
   .buttonap{
     width: 30%; 
