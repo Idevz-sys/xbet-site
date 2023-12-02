@@ -1404,6 +1404,7 @@ ul {
 .text-in {
   text-align: justify;
   margin-left: 60px;
+  font-size: 14px;
 }
 
 .text-in::after {
