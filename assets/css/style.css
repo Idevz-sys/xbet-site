@@ -271,6 +271,13 @@ code {
 margin-bottom: 10px;
 }
 
+@media (max-width: 400px){
+ .section-title.style-white .content {
+  font-size: 12px;
+ }
+}
+
+
 
 .buttonapp{
   background-color: #084a2b;
