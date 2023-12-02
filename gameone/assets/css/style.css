@@ -1621,6 +1621,9 @@ ul {
   visibility: visible;
   opacity: 1;
 }
+#submenu {
+  min-width: 20px;
+}
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu {
   position: absolute;
   text-align: left;
