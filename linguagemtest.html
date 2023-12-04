@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Multi Linguagem</title>
+</head>
+<body>
+
+    <h1 id="123456789">Multi Linguagem</h1>
+    <p>
+        Selecione o idioma:
+        <button onclick="changeLanguage('pt')">Português</button>
+        <button onclick="changeLanguage('es')">Español</button>
+    </p>
+
+    <script>
+        const translations = {
+            'pt': {
+                '123456789': 'Multi Linguagem'
+            },
+            'es': {
+                '123456789': 'Multilenguaje'
+            }
+        };
+
+        function changeLanguage(lang) {
+            const elements = document.querySelectorAll('[id^="multi-"]');
+            
+            elements.forEach(element => {
+                const key = element.id;
+                element.textContent = translations[lang][key];
+            });
+        }
+
+        // Inicialmente, definimos os textos para o idioma padrão (português)
+        changeLanguage('pt');
+    </script>
+
+</body>
+</html>

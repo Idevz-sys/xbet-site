@@ -1432,6 +1432,17 @@ ul {
   
   
   }
+  
+  @media (max-width: 1500px){
+    .buttonap{
+      width: 30%; 
+      display: flex;
+      margin-left: 458px;
+    
+    
+    
+    }
+
 }
 
 @media (max-width: 1193px){
@@ -1876,6 +1887,7 @@ ul {
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
   display: block;
   padding: 10px 20px;
+  margin-right: 100px;
   white-space: nowrap;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

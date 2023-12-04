@@ -55,17 +55,17 @@
                 </div>
                 <div class="collapse navbar-collapse" id="edumint_main_menu">
                     <ul class="navbar-nav menu-open text-end">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">Sobre nós</a></li>
-                        <li><a href="xbets.html">Xbets</a></li>
-                        <li><a href="blog.html">Blog</a></li></li>
-                        <li><a href="contact.html">Contato</a></li>
+                        <li><a id="multi-home" href="index.html">Home</a></li>
+                        <li><a id="multi-about" href="about.html">Sobre nós</a></li>
+                        <li><a id="multi-blog" href="blog.html">Blog</a></li></li>
+                        <li><a id="multi-contact" href="contact.html">Contato</a></li>
                         <li class="menu-item-has-children current-menu-item">
-                            <a href="#">idioma</a>
+                            <a  id="multi-idioma" href="#">Idioma</a>
                             <ul id="submenu" class="sub-menu">
-                                <li><a href=""><img  src="assets/img/idiomas/1.png" alt=""></a></li>
-                                <li><a href=""><img src="assets/img/idiomas/2.png" alt=""></a></li>
-                                <li><a href=""><img src="assets/img/idiomas/3.png" alt=""></a></li>
+                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('en');"><img src="assets/img/idiomas/3.png" alt="">english</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('es');"><img src="assets/img/idiomas/2.png" alt="">español</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('pt');"><img src="assets/img/idiomas/1.png" alt="">Portugues</a></li>
+
                             </ul>
                         </li>
 
@@ -85,13 +85,13 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 align-self-center">
                     <div class="banner-inner text-center">
-                        <h1 style="font-size: 35px;" class="b-animate-2 title">Tecnologia <span> ХВОТ</span> 
+                        <h1 id="multi-tec" style="font-size: 35px;" class="b-animate-2 title">Tecnologia <span> ХВОТ</span> 
                             O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS</h1>
                         <b>
-                            <p style="color: #11e70b;" class="b-animate-4"><strong>Aposte com praticidade e segurança usando a tecnologia Xbot, baseada em IA, replicando padrões comportamentais humanos por meio de dispositivos e programas.</strong></p>
+                            <p id="multi-text1" style="color: #11e70b;" class="b-animate-4"><strong>Aposte com praticidade e segurança usando a tecnologia Xbot, baseada em IA, replicando padrões comportamentais humanos por meio de dispositivos e programas.</strong></p>
                         </b>
                         <div class="btn-wrap">
-                            <a class="btn btn-base-2 b-animate-4" href="#">Registre-se já! <i class="fas fa-arrow-circle-right ms-2"></i></a>
+                            <a id="multi-btn1" class="btn btn-base-2 b-animate-4" href="#">Registre-se já! <i class="fas fa-arrow-circle-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,9 +111,9 @@
                                 <img src="assets/img/intro/1.png" alt="img">
                             </div>
                             <div class="details">
-                                <h6>100 mil Clientes</h6>
+                                <h6 id="multi-text2" >100 mil Clientes</h6>
                                 <h4><a style="color: black;" href="register.html">Usuarios Cadastrados</a></h4>
-                                <p style="color: black;" >Contamos com mais de 50 mil pessoas cadastradas em nossa plataforma.</p>
+                                <p id="multi-text3" style="color: black;" >Contamos com mais de 50 mil pessoas cadastradas em nossa plataforma.</p>
                             </div>
                         </div>
                     </div>
@@ -123,9 +123,9 @@
                                 <img src="assets/img/intro/2.png" alt="img">
                             </div>
                             <div class="details media-body">
-                                <h6> Apartir de 50 USD</h6>
-                                <h4><a style="color: black;" href="profit.html">Aposta Segura</a></h4>
-                                <p style="color: black;">Com um Aposta a partir de 50 dólares, você já pode começar a Apostar conosco..</p>
+                                <h6 id="multi-text4"> Apartir de 50 USD</h6>
+                                <h4><a id="multi-text5" style="color: black;" href="profit.html">Aposta Segura</a></h4>
+                                <p id="multi-text6" style="color: black;">Com um Aposta a partir de 50 dólares, você já pode começar a Apostar conosco</p>
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,9 @@
                                 <img src="assets/img/intro/3.png" alt="img">
                             </div>
                             <div class="details">
-                                <h6>Suporte 24 horas, todos os dias.</h6>
-                                <h4><a style="color: black;" href="contact.html">Suporte no mundo todo!</a></h4>
-                                <p style="color: black;">Oferecemos suporte 24 horas para o mundo todo.</p>
+                                <h6 id="multi-text7" >Suporte 24 horas, todos os dias.</h6>
+                                <h4><a id="multi-text8" style="color: black;" href="contact.html">Suporte no mundo todo!</a></h4>
+                                <p id="multi-text9" style="color: black;">Oferecemos suporte 24 horas para o mundo todo.</p>
                             </div>
                         </div>
                     </div>
@@ -147,9 +147,9 @@
                                 <img src="assets/img/intro/4.png" alt="img">
                             </div>
                             <div class="details">
-                                <h6 >30 Mil sellers ativos</h6>
-                                <h4><a style="color: black;" href="bookmark.html"> Sellers Ativos</a></h4>
-                                <p style="color: black;">Atualmente, temos mais de 30 mil vendedores ativos em nossa plataforma.</p>
+                                <h6 id="multi-text10" >30 Mil sellers ativos</h6>
+                                <h4><a id="multi-text11" style="color: black;" href="bookmark.html"> Sellers Ativos</a></h4>
+                                <p id="multi-text12" style="color: black;">Atualmente, temos mais de 30 mil vendedores ativos em nossa plataforma.</p>
                             </div>
                         </div>
                     </div>
@@ -164,13 +164,13 @@
             <div id="cards-robot" class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9">
                     <div id="regras" class="section-title style-white text-center">
-                        <h6 class="sub-title">REGRA DE PLANOS E RÔBO CLIENTE</h6>
-                        <h2 class="title">Seja um Cliente Xbot</h2>
+                        <h6 id="multi-text13" class="sub-title">REGRA DE PLANOS E RÔBO CLIENTE</h6>
+                        <h2 id="multi-text14" class="title">Seja um Cliente Xbot</h2>
                         <div class="fontsize">
-                            <p class="content"><strong>Start: 50 usa p/ ano Pool de apostas até 1K USD</strong></p>
-                            <p class="content"><strong>Mid: 200 usd p/ ano Pool de apostas até 5K USD</strong></p>
-                            <p class="content"><strong>Senior: 350 usd p/ ano Pool de apostas até 10K USD</strong></p>
-                            <p class="content"><strong>Hard: 500 usd p/ ano Pool de apostas acima de 10K USD</strong></p>
+                            <p id="multi-text15" class="content"><strong>Start: 50 usa p/ ano Pool de apostas até 1K USD</strong></p>
+                            <p id="multi-text16" class="content"><strong>Mid: 200 usd p/ ano Pool de apostas até 5K USD</strong></p>
+                            <p id="multi-text17" class="content"><strong>Senior: 350 usd p/ ano Pool de apostas até 10K USD</strong></p>
+                            <p id="multi-text18" class="content"><strong>Hard: 500 usd p/ ano Pool de apostas acima de 10K USD</strong></p>
                         </div>
 
                     </div>
@@ -185,11 +185,10 @@
                         <div class="details">
                             <h5>$50</h5>
                             <h4><a href="tipster.html">Start</a></h4>
-                            <p>Apostas até 1.000 USD</p>
-                            <p>Lucro total: 200% de lucro.</p>
-                            <p>Suporte 24 horas</p>
-                            
-                            <a class="read-more-text mt-3" href="tipster.html">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                            <p id="multi-text19">Apostas até 1.000 USD</p>
+                            <p id="multi-text20" >Lucro total: 200% de lucro.</p>
+                            <p id="multi-text21">Suporte 24 horas</p>
+                            <a id="multi-text22" class="read-more-text mt-3" href="#">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -201,10 +200,10 @@
                         <div class="details">
                             <h5>$200</h5>
                             <h4><a href="tipster.html">Mid</a></h4>
-                            <p>Apostas até 5.000 USD</p>
-                            <p>Lucro total: 200% de lucro.</p>
-                            <p>Suporte 24 horas</p>
-                            <a class="read-more-text mt-3" href="tipster.html">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                            <p id="multi-text23" >Apostas até 5.000 USD</p>
+                            <p id="multi-text24">Lucro total: 200% de lucro.</p>
+                            <p id="multi-text25" >Suporte 24 horas</p>
+                            <a id="multi-text26" class="read-more-text mt-3" href="#">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -216,10 +215,10 @@
                         <div class="details border-radious-50">
                             <h5>$350</h5>
                             <h4><a href="tipster.html">Senior</a></h4>
-                            <p>Apostas até 10.000 USD</p>
-                            <p>Lucro total: 200% de lucro.</p>
-                            <p>Suporte 24 horas</p>
-                            <a class="read-more-text mt-3" href="tipster.html">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                            <p id="multi-text27" >Apostas até 10.000 USD</p>
+                            <p id="multi-text28">Lucro total: 200% de lucro.</p>
+                            <p id="multi-text29">Suporte 24 horas</p>
+                            <a id="multi-text30" class="read-more-text mt-3" href="#l">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -230,11 +229,11 @@
                         </div>
                         <div class="details">
                             <h5>$500</h5>
-                            <h4><a href="tipster.html">Hard</a></h4>
-                            <p>Apostas até 10.000 USD</p>
-                            <p>Lucro total: 200% de lucro.</p>
-                            <p>Suporte 24 horas</p>
-                            <a class="read-more-text mt-3" href="tipster.html">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                            <h4> <a href="tipster.html">Hard</a></h4>
+                            <p id="multi-text32">Apostas até 10.000 USD</p>
+                            <p id="multi-text33">Lucro total: 200% de lucro.</p>
+                            <p id="multi-text34">Suporte 24 horas</p>
+                            <a id="multi-text30" class="read-more-text mt-3" href="#">Quero Contratar <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -249,7 +248,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-8 align-self-center">
                     <div class="section-title style-white mb-0 text-center">
-                        <h3 class="title">Se você tem alguma duvida entre em contato clique <a href="contact.html"><span> aqui </span></a></h3>
+                        <h3 class="title"><a href="contact.html"><span id="multi-text36" > aqui </span></a></h3>
                     </div>  
                 </div>
             </div>
@@ -263,9 +262,9 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9">
                     <div class="section-title text-center">
-                        <h6 class="sub-title">Xbots</h6>
-                        <h2 class="title">Regras Para usuarios</h2>
-                        <p class="content">
+                        <h6 id="multi-text37" class="sub-title">Xbots</h6>
+                        <h2 id="multi-text38" class="title">Regras Para usuarios</h2>
+                        <p id="multi-text39" class="content">
                             Explore a inovação nas apostas esportivas com o Xbet: sistema automatizado, análises precisas e lucros diários. Depósitos em USDT ou PIX, transparência total e suporte contínuo, proporcionando uma experiência de apostas simplificada e lucrativa.</p>
                     </div>
                 </div>
@@ -277,13 +276,13 @@
                             <img src="assets/img/feature/1.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><a href="#">Saques Sellers</a></h4>
+                            <h4><a id="multi-text40" href="#">Saques Sellers</a></h4>
                             <div class="text-in">
-                                <p>- Para sacar precisará do 2FA.</p>
-                                <p>- Saque todo dia das 00:00 às 23:59h.</p>
-                                <p>- Minimo para saque 50 usd</p>
-                                <p>- 6% de taxa no pix</p>
-                                <p>- 1.5% de taxa no usdt (rede)</p>
+                                <p id="multi-text41">- Para sacar precisará do 2FA.</p>
+                                <p id="multi-text42">- Saque todo dia das 00:00 às 23:59h.</p>
+                                <p id="multi-text43" >- Minimo para saque 50 usd</p>
+                                <p id="multi-text44">- 6% de taxa no pix</p>
+                                <p id="multi-text45" >- 1.5% de taxa no usdt (rede)</p>
                             </div>
                         </div>
                     </div>
@@ -296,11 +295,11 @@
                         <div class="details">
                             <h4><a href="#">Saques Clientes</a></h4>
                             <div class="text-in" >
-                                <p>- Para sacar precisará do 2FA.</p>
-                                <p>- Saque todo dia das 00:00 às 23:59h.</p>
-                                <p>- Minimo para saque 20 usd</p>
-                                <p>- 6% de taxa no pix</p>
-                                <p>- 1.5% de taxa no usdt (rede)</p>
+                                <p id="multi-tex46">- Para sacar precisará do 2FA.</p>
+                                <p id="multi-text47">- Saque todo dia das 00:00 às 23:59h.</p>
+                                <p id="multi-text48">- Minimo para saque 20 usd</p>
+                                <p id="multi-text49">- 6% de taxa no pix</p>
+                                <p id="multi-text50">- 1.5% de taxa no usdt (rede)</p>
                             </div>
                         </div>
                     </div>
@@ -312,12 +311,12 @@
                             <img src="assets/img/feature/3.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><a href="#">Regra de plano Rôbo</a></h4>
+                            <h4><a id="multi-text51" href="#">Regra de plano Rôbo</a></h4>
                             <div class="text-in">
-                                <p class="content">- Start:50 usa p/ ano Pool de apostas até 1K USD</p>
-                                <p class="content">- Mid:200 usd p/ ano Pool de apostas até 5K USD</p>
-                                <p class="content">- Senior:350 usd p/ ano Pool de apostas até 10K USD</p>
-                                <p class="content">- Hard:500 usd p/ ano Pool de apostas acima de 10K USD</p>
+                                <p id="multi-text52" class="content">- Start:50 usa p/ ano Pool de apostas até 1K USD</p>
+                                <p id="multi-text53" class="content">- Mid:200 usd p/ ano Pool de apostas até 5K USD</p>
+                                <p id="multi-text54" class="content">- Senior:350 usd p/ ano Pool de apostas até 10K USD</p>
+                                <p id="multi-text55" class="content">- Hard:500 usd p/ ano Pool de apostas acima de 10K USD</p>
                             </div>
 
                         </div>
@@ -329,12 +328,12 @@
                             <img src="assets/img/feature/4.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><a href="#">Suporte 24/7</a></h4>
+                            <h4><a id="multi-text56" href="#">Suporte 24/7</a></h4>
                             <div class="text-in">
-                                <p>Suporte técnico disponível 24 horas por dia, 7 dias por semana, garantindo assistência contínua.</p>
-                                <p>- Suporte via Whatsapp</p>
-                                <p>- Suporte via Ticket</p>
-                                <p>- Suporte via Email</p>
+                                <p id="multi-text57">Suporte técnico disponível 24 horas por dia, 7 dias por semana, garantindo assistência contínua.</p>
+                                <p id="multi-text58">- Suporte via Whatsapp</p>
+                                <p id="multi-text59">- Suporte via Ticket</p>
+                                <p id="multi-text60">- Suporte via Email</p>
                             </div>
                         </div>
                     </div>
@@ -345,13 +344,13 @@
                             <img src="assets/img/feature/5.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><a href="#">Maxima Segurança</a></h4>
+                            <h4><a id="multi-text60" href="#">Maxima Segurança</a></h4>
                             <div class="text-in">
-                                <p>Usamos tecnlogia de segurança maxima.</p>
-                                <p>- 2FA Segurança para Saque e login</p>
-                                <p>- Confirmação de email </p>
-                                <p>- Sistema utiliza criptografia de ponta a ponta. </p>
-                                <p>- GDPR (Regulamento Geral de Proteção de Dados)</p>
+                                <p id="multi-text61">Usamos tecnlogia de segurança maxima.</p>
+                                <p id="multi-text62">- 2FA Segurança para Saque e login</p>
+                                <p id="multi-text63">- Confirmação de email </p>
+                                <p id="multi-text64">- Sistema utiliza criptografia de ponta a ponta. </p>
+                                <p id="multi-text65">- GDPR (Regulamento Geral de Proteção de Dados)</p>
                             </div>
 
                         </div>
@@ -363,14 +362,14 @@
                             <img src="assets/img/feature/6.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><a href="#">Aposta Seguro</a></h4>
+                            <h4><a id="multi-text66" href="#">Aposta Seguro</a></h4>
                            
                             <div class="text-in">
-                                <p>A Xbet traz segurança de ponta em seu Aposta.</p>
-                                <p>- Transparência nas transações financeiras.</p>
-                                <p>- Proteção avançada de dados pessoais.</p>
-                                <p>- Suporte dedicado e atendimento confiável.</p>
-                                <p>- Garantia de conformidade com normas de segurança.</p>
+                                <p id="multi-text67" >A Xbet traz segurança de ponta em seu Aposta.</p>
+                                <p id="multi-text68" >- Transparência nas transações financeiras.</p>
+                                <p id="multi-text69" >- Proteção avançada de dados pessoais.</p>
+                                <p id="multi-text70">- Suporte dedicado e atendimento confiável.</p>
+                                <p id="multi-text71">- Garantia de conformidade com normas de segurança.</p>
                             </div>
                             
 
@@ -386,8 +385,8 @@
     <div  class="call-to-action-area pd-top-90 pd-bottom-90" style="background-image: url(./assets/img/bg/9.png);">
         <div class="container">
             <div class="section-title style-white mb-0 text-center">
-                <h6 class="text-white mb-3">Confira agora nosso App no Android!</h6>
-                <h2 class="title">Baixe ele agora!</h2>
+                <h6 id="multi-text72" class="text-white mb-3">Confira agora nosso App no Android!</h6>
+                <h2 id="multi-text73" class="title">Baixe ele agora!</h2>
 
                 <div class="buttonap" >
                     <a  href="#"> <img src="assets/img/client/ios.png" alt=""></a>
@@ -406,8 +405,8 @@
     <div class="match-start-area bg-cover pd-top-95 pd-bottom-100" style="background-image: url('assets/img/bg/12.png');">
         <div class="container">
             <div class="section-title style-white text-center">
-                <h2 class="title">Começando em breve</h2>
-                <p class="content">O horário de cada jogo dependerá das condições climáticas.</p>
+                <h2 id="multi-text74" class="title">Começando em breve</h2>
+                <p id="multi-text75"class="content">O horário de cada jogo dependerá das condições climáticas.</p>
             </div>
             <div class="match-start-time-slider slider-control-dots owl-carousel">
                 <div class="item">
@@ -416,13 +415,13 @@
                             <div class="thumb d-inline-block">
                                 <img class="w-auto" src="assets/img/club-icon/6.png" alt="img">
                             </div>
-                            <h4>IPL Premier League 56</h4>
-                            <p>Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India</p>
+                            <h4 id="multi-text76">IPL Premier League 56</h4>
+                            <p id="multi-text77">Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India</p>
                             <p>14:54</p>
                         </div>
                         <div class="middle">
-                            <h6>Starting on 12 Jan 2021</h6>
-                            <h5>GMT 5.30 PM : 3 Hours Left</h5>
+                            <h6 id="multi-text78">Starting on 12 Jan 2021</h6>
+                            <h5 id="multi-text79">GMT 5.30 PM : 3 Hours Left</h5>
                             <div class="upcoming-match-inner mt-3">
                                 <div class="row">
                                     <div class="col-sm-4">
@@ -449,7 +448,7 @@
                                 </div>
                             </div>
                             <div class="btn-wrap">
-                                <a class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                                <a id="multi-text80" class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -460,13 +459,13 @@
                             <div class="thumb d-inline-block">
                                 <img class="w-auto" src="assets/img/club-icon/6.png" alt="img">
                             </div>
-                            <h4>IPL Premier League 56</h4>
-                            <p>Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India</p>
+                            <h4 id="multi-text81">IPL Premier League 56</h4>
+                            <p id="multi-text82">Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India</p>
                             <p>15:54</p>
                         </div>
                         <div class="middle">
-                            <h6>Starting on 12 Jan 2021</h6>
-                            <h5>GMT 5.30 PM : 3 Hours Left</h5>
+                            <h6 id="multi-text83">Starting on 12 Jan 2021</h6>
+                            <h5 id="multi-text84">GMT 5.30 PM : 3 Hours Left</h5>
                             <div class="upcoming-match-inner mt-3">
                                 <div class="row">
                                     <div class="col-sm-4">
@@ -493,7 +492,7 @@
                                 </div>
                             </div>
                             <div class="btn-wrap">
-                                <a class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                                <a id="multi-text85" id="multi-text85" class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -536,7 +535,7 @@
                                 </div>
                             </div>
                             <div class="btn-wrap">
-                                <a class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
+                                <a id="multi-text86" class="btn btn-black" href="#">Ver agora <i class="fas fa-arrow-alt-circle-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -644,8 +643,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-9 col-md-11">
                     <div class="section-title text-center">
-                        <h6 class="sub-title">Notícias</h6>
-                        <h2 class="title">Ultimas notícias</h2>
+                        <h6 id="multi-text87" class="sub-title">Notícias</h6>
+                        <h2 id="multi-text88" class="title">Ultimas notícias</h2>
                     </div>
                 </div>
             </div>
@@ -657,10 +656,10 @@
                         </div>
                         <div class="details">
                             <ul class="blog-meta">
-                                <li  style="color: white;><i class="far fa-calendar-check"></i>11 de novembro de 2023</li>
+                                <li id="multi-text89"  style="color: white;""><i class="far fa-calendar-check" ></i>11 de novembro de 2023</li>
                             </ul>
                             <h4><a target="_blank" href="https://tntsports.com.br/melhorfuteboldomundo/Real-Madrid-quer-assinar-contrato-de-renovacao-de-Ancelotti-antes-do-Natal-20231127-0003.html">Real Madrid quer assinar contrato de renovação de Ancelotti antes do Natal</a></h4>
-                            <p class="content">Renovação do treinador merengue deve frustar os planos da Seleção Brasileira </p>
+                            <p id="multi-text90" class="content">Renovação do treinador merengue deve frustar os planos da Seleção Brasileira </p>
                             <a style="color: white;"style="color: white;" class="read-more-arrow mt-2 d-block" href="https://tntsports.com.br/melhorfuteboldomundo/Real-Madrid-quer-assinar-contrato-de-renovacao-de-Ancelotti-antes-do-Natal-20231127-0003.html">Ler sobre <i class="fas fa-arrow-alt-circle-right ms-1"></i></a>
                         </div>
                     </div>
@@ -672,12 +671,12 @@
                         </div>
                         <div class="details">
                             <ul class="blog-meta">
-                                <li  style="color: white; ><i class="far fa-calendar-check"></i>08 de agosto de 2023 07:23</li>
+                                <li  style="color: white;"" ><i class="far fa-calendar-check"></i>08 de agosto de 2023 07:23</li>
                             </ul>
-                            <h4><a target="_blank" href="https://www.espn.com/mens-college-basketball/story/_/id/38984418/men-college-basketball-power-rankings-feast-week-purdue-no-1-new-top-16">
+                            <h4 id="multi-text91"><a target="_blank" href="https://www.espn.com/mens-college-basketball/story/_/id/38984418/men-college-basketball-power-rankings-feast-week-purdue-no-1-new-top-16">
                                 Purdue encabeça o Power 36 do basquete universitário masculino pós-Semana do Banquete.</a></h4>
-                            <p class="content">Purdue vence Maui Invitational, derrotando Gonzaga, Tennessee e Marquette.</p>
-                            <a style="color: white;style="color: white;" class="read-more-arrow mt-2 d-block" href="https://www.espn.com/mens-college-basketball/story/_/id/38984418/men-college-basketball-power-rankings-feast-week-purdue-no-1-new-top-16">Ler sobre <i class="fas fa-arrow-alt-circle-right ms-1"></i></a>
+                            <p id="multi-text92" class="content">Purdue vence Maui Invitational, derrotando Gonzaga, Tennessee e Marquette.</p>
+                            <a id="multi-text93" style="color: white;"class="read-more-arrow mt-2 d-block" href="https://www.espn.com/mens-college-basketball/story/_/id/38984418/men-college-basketball-power-rankings-feast-week-purdue-no-1-new-top-16">Ler sobre <i class="fas fa-arrow-alt-circle-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -688,12 +687,12 @@
                         </div>
                         <div class="details">
                             <ul class="blog-meta">
-                                <li style="color: white; ><i class="far fa-calendar-check"></i>11 de novembro de 2023</li>
+                                <li id="multi-text92" style="color: white;" ><i class="far fa-calendar-check"></i>11 de novembro de 2023</li>
                             </ul>
-                            <h4><a target="_blank" href="https://trivela.com.br/inglaterra/premier-league/clube-a-clube-este-e-o-guia-trivela-da-premier-league-2023-24/">
+                            <h4><a id="multi-text93" target="_blank" href="https://trivela.com.br/inglaterra/premier-league/clube-a-clube-este-e-o-guia-trivela-da-premier-league-2023-24/">
                                 Guia Trivela: Premier League 2023/24 - Time por Time</a></h4>
-                            <p class="content">Uma análise detalhada do mercado, do elenco, da situação e das expectativas dos 20 participantes do Campeonato Inglês </p>
-                            <a style="color: white;style="color: white;" class="read-more-arrow mt-2 d-block" href="https://trivela.com.br/inglaterra/premier-league/clube-a-clube-este-e-o-guia-trivela-da-premier-league-2023-24/">Ler sobre<i class="fas fa-arrow-alt-circle-right ms-1"></i></a>
+                            <p id="multi-text94" class="content">Uma análise detalhada do mercado, do elenco, da situação e das expectativas dos 20 participantes do Campeonato Inglês </p>
+                            <a id="multi-text95" style="color: white "class="read-more-arrow mt-2 d-block" href="https://trivela.com.br/inglaterra/premier-league/clube-a-clube-este-e-o-guia-trivela-da-premier-league-2023-24/">Ler sobre<i class="fas fa-arrow-alt-circle-right ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -707,12 +706,12 @@
             <div class="footer-subscribe-inner">
                 <div class="row">
                     <div class="col-lg-6 align-self-center">
-                        <h3 class="text-white mb-0">Coloque seu email e receba noticias atualizadas sobre o mundo Bet!</h3>
+                        <h3  id="multi-text96" class="text-white mb-0">Coloque seu email e receba noticias atualizadas sobre o mundo Bet!</h3>
                     </div>
                     <div class="col-lg-6">
                         <div class="single-subscribe-inner">
                             <input type="text" placeholder="Enter Your E-mail">
-                            <button class="btn btn-base">Subscribe</button>
+                            <button  id="multi-text97" class="btn btn-base">Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -726,9 +725,9 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="widget widget_about pr-xl-4">
-                            <h4 class="widget-title">Sobre Nós</h4>
+                            <h4  id="multi-text98" class="widget-title">Sobre Nós</h4>
                             <div class="details">
-                                <p class="mb-3"> Somos uma empresa líder em apostas esportivas, impulsionada por robôs especializados. Maximize seus ganhos com nossa abordagem inovadora e dedicada ao sucesso.</p>
+                                <p  id="multi-text99" class="mb-3"> Somos uma empresa líder em apostas esportivas, impulsionada por robôs especializados. Maximize seus ganhos com nossa abordagem inovadora e dedicada ao sucesso.</p>
                                 <p><i class="fa fa-phone"></i>+789-5565886</p>
                                 <p><i class="fa fa-envelope"></i>Contact@xbet.com</p>
                                 <ul class="social-media style-base">
@@ -758,25 +757,25 @@
                     </div>
                     <div class="col-lg-3 col-md-6 ps-lg-5">
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Serviços</h4>
+                            <h4  id="multi-text100" id="multi-text100" class="widget-title">Serviços</h4>
                             <ul>
-                                <li><a href="#">Xbets</a></li>
-                                <li><a href="#">Robot</a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#">Resultados</a></li>
+                                <li id="multi-text101" ><a href="#">Xbets</a></li>
+                                <li id="multi-text102"><a href="#">Robot</a></li>
+                                <li id="multi-text103"><a href="#"></a></li>
+                                <li id="multi-text104"><a href="#">Resultados</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Atalhos</h4>
+                            <h4 id="multi-text105" id="multi-text105" class="widget-title">Atalhos</h4>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">Sobre Nós</a></li>
-                                <li><a href="blog.html">Xbets</a></li>
-                                <li><a href="tipster.html">Blog</a></li>
-                                <li><a href="contact.html">Business Plan</a></li>
-                                <li><a href="contact.html">Contatos</a></li>
+                                <li id="multi-text106" ><a href="index.html">Home</a></li>
+                                <li id="multi-text107"><a href="about.html">Sobre Nós</a></li>
+                                <li id="multi-text108"><a href="blog.html">Xbets</a></li>
+                                <li id="multi-text109"><a href="tipster.html">Blog</a></li>
+                                <li id="multi-text110"><a href="contact.html">Business Plan</a></li>
+                                <li id="multi-text111"><a href="contact.html">Contatos</a></li>
 
                             </ul>
                         </div>
@@ -800,12 +799,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
-                        <p>@CopyRight Todos os seus diretos reservados  <span>XBET</span></p>
+                        <p id="multi-text112">@CopyRight Todos os seus diretos reservados  <span>XBET</span></p>
                     </div>
-                    <div class="col-lg-7 align-self-center text-lg-end mt-lg-0 mt-2">
-                        Método de pagamento aceito.   
-                        <img class="ms-md-2" src="assets/img/other/1.png" alt="img">
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -818,6 +814,384 @@
     </div>
     <!-- back to top area end -->
 
+    <script>
+        const translations = {
+             'en': {
+                'multi-home': 'Home',
+                'multi-about': 'About Us',
+                'multi-blog': 'Blog',
+                'multi-contact': 'Contact',
+                'multi-idioma': 'Language',
+                'multi-tec': 'Technology YOUR NEW SPORTS BETTING ROBOT',
+                'multi-text1': 'Bet with practicality and security using Xbot technology, based on AI, replicating human behavioral patterns through devices and programs.',
+                'multi-btn1': 'Register now!',
+                'multi-text2': '100 thousand Customers',
+                'multi-text3': 'We have over 50 thousand people registered on our platform.',
+                'multi-text4': 'From 50 USD',
+                'multi-text5': 'Safe Bet',
+                'multi-text6': 'With a Bet starting at 50 dollars, you can already start betting with us.',
+                'multi-text7': '24-hour support, every day.',
+                'multi-text8': 'Worldwide support!',
+                'multi-text9': 'We offer 24-hour support worldwide.',
+                'multi-text10': '30 Thousand active sellers',
+                'multi-text11': 'Active Sellers',
+                'multi-text12': 'Currently, we have over 30 thousand active sellers on our platform.',
+                'multi-text13': 'RULES AND CLIENT ROBOT PLANS',
+                'multi-text14': 'Be an Xbot Customer',
+                'multi-text15': 'Start: 50 usd per year Betting pool up to 1K USD',
+                'multi-text16': 'Mid: 200 usd per year Betting pool up to 5K USD',
+                'multi-text17': 'Senior: 350 usd per year Betting pool up to 10K USD',
+                'multi-text18': 'Hard: 500 usd per year Betting pool over 10K USD',
+                'multi-text19': '$50',
+                'multi-text20': 'Total profit: 200% profit.',
+                'multi-text21': '24-hour support',
+                'multi-text22': 'I want to hire',
+                'multi-text23': '$200',
+                'multi-text24': 'Total profit: 200% profit.',
+                'multi-text25': '24-hour support',
+                'multi-text26': 'I want to hire',
+                'multi-text27': '$350',
+                'multi-text28': 'Total profit: 200% profit.',
+                'multi-text29': '24-hour support',
+                'multi-text30': 'I want to hire',
+                'multi-text31': '$500',
+                'multi-text32': 'Total profit: 200% profit.',
+                'multi-text33': '24-hour support',
+                'multi-text34': 'I want to hire',
+                'multi-text36': 'If you have any questions, contact us click here',
+                'multi-text37': 'Xbots',
+                'multi-text38': 'Rules for Users',
+                'multi-text39': 'Explore innovation in sports betting with Xbet: automated system, accurate analysis, and daily profits. Deposits in USDT or PIX, total transparency, and continuous support, providing a simplified and profitable betting experience.',
+                'multi-text40': 'Sellers Withdrawals',
+                'multi-text41': '- To withdraw, you will need 2FA.',
+                'multi-text42': '- Withdraw every day from 00:00 to 23:59h.',
+                'multi-text43': '- Minimum withdrawal 50 USD',
+                'multi-text44': '- 6% fee on PIX',
+                'multi-text45': '- 1.5% fee on USDT (network)',
+                'multi-text46': 'Customer Withdrawals',
+                'multi-text47': '- To withdraw, you will need 2FA.',
+                'multi-text48': '- Withdraw every day from 00:00 to 23:59h.',
+                'multi-text49': '- Minimum withdrawal 20 USD',
+                'multi-text50': '- 6% fee on PIX',
+                'multi-text51': 'Robot Plan Rule',
+                'multi-text52': '- Start: 50 usd per year Betting pool up to 1K USD',
+                'multi-text53': '- Mid: 200 usd per year Betting pool up to 5K USD',
+                'multi-text54': '- Senior: 350 usd per year Betting pool up to 10K USD',
+                'multi-text55': '- Hard: 500 usd per year Betting pool over 10K USD',
+                'multi-text56': '24/7 Support',
+                'multi-text57': 'Technical support available 24 hours a day, 7 days a week, ensuring continuous assistance.',
+                'multi-text58': '- Support via Whatsapp',
+                'multi-text59': '- Support via Ticket',
+                'multi-text60': '- Support via Email',
+                'multi-text61': 'We use maximum security technology.',
+                'multi-text62': '- 2FA Security for Withdrawal and login',
+                'multi-text63': '- Email confirmation',
+                'multi-text64': '- System uses end-to-end encryption.',
+                'multi-text65': '- GDPR (General Data Protection Regulation)',
+                'multi-text66': 'Safe Bet',
+                'multi-text67': 'Xbet brings top-notch security to your Bet.',
+                'multi-text68': '- Transparency in financial transactions.',
+                'multi-text69': '- Advanced protection of personal data.',
+                'multi-text70': '- Dedicated support and reliable service.',
+                'multi-text71': '- Guarantee of compliance with security standards.',
+                'multi-text72': 'Check out our App on Android now!',
+                'multi-text73': 'Download it now!',
+                'multi-text74': 'Starting soon',
+                'multi-text75': 'The time of each game will depend on weather conditions.',
+                'multi-text76': 'IPL Premier League 56',
+                'multi-text77': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text78': 'Starting on Jan 12, 2021',
+                'multi-text79': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text80': 'See now',
+                'multi-text81': 'IPL Premier League 56',
+                'multi-text82': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text83': 'Starting on Jan 12, 2021',
+                'multi-text84': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text85': 'See now',
+                'multi-text86': 'IPL Premier League 56',
+                'multi-text87': 'Check out our App on Android now!',
+                'multi-text88': 'Download it now!',
+                'multi-text89': 'See now',
+                'multi-text90': 'IPL Premier League 56',
+                'multi-text91': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text92': 'Starting on Jan 12, 2021',
+                'multi-text93': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text94': 'Trivela Guide: Premier League 2023/24 - Team by Team',
+                'multi-text95': 'Read about',
+                'multi-text96': 'Enter your email and receive updated news about the Bet world!',
+                'multi-text97': 'Subscribe',
+                'multi-text98': 'About Us',
+                'multi-text99': 'We are a leading company in sports betting, driven by specialized robots. Maximize your earnings with our innovative and success-dedicated approach.',
+                'multi-text100': 'Services',
+                'multi-text101': 'Xbets',
+                'multi-text102': 'Robot',
+                'multi-text103': '',
+                'multi-text104': 'Results',
+                'multi-text105': 'Shortcuts',
+                'multi-text106': 'Home',
+                'multi-text107': 'About Us',
+                'multi-text108': 'Xbets',
+                'multi-text109': 'Blog',
+                'multi-text110': 'Business Plan',
+                'multi-text111': 'Contacts',
+                'multi-text112': '@CopyRight All your rights reserved XBET'
+                    },
+                    
+            'pt': {
+                'multi-home': 'Home',
+                'multi-about': 'Sobre nós',
+                'multi-blog': 'Blog',
+                'multi-contact': 'Contato',
+                'multi-idioma': 'Idioma',
+                'multi-tec': 'Tecnologia ХВОТ O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS',
+                'multi-text1': 'Aposte com praticidade e segurança usando a tecnologia Xbot, baseada em IA, replicando padrões comportamentais humanos por meio de dispositivos e programas.',
+                'multi-btn1': 'Registre-se já!',
+                'multi-text2': '100 mil Clientes',
+                'multi-text3': 'Contamos com mais de 50 mil pessoas cadastradas em nossa plataforma.',
+                'multi-text4': 'A partir de 50 USD',
+                'multi-text5': 'Aposta Segura',
+                'multi-text6': 'Com uma Aposta a partir de 50 dólares, você já pode começar a Apostar conosco',
+                'multi-text7': 'Suporte 24 horas, todos os dias.',
+                'multi-text8': 'Suporte no mundo todo!',
+                'multi-text9': 'Oferecemos suporte 24 horas para o mundo todo.',
+                'multi-text10': '30 Mil sellers ativos',
+                'multi-text11': 'Sellers Ativos',
+                'multi-text12': 'Atualmente, temos mais de 30 mil vendedores ativos em nossa plataforma.',
+                'multi-text13': 'REGRA DE PLANOS E RÔBO CLIENTE',
+                'multi-text14': 'Seja um Cliente Xbot',
+                'multi-text15': 'Start: 50 usa p/ ano Pool de apostas até 1K USD',
+                'multi-text16': 'Mid: 200 usd p/ ano Pool de apostas até 5K USD',
+                'multi-text17': 'Senior: 350 usd p/ ano Pool de apostas até 10K USD',
+                'multi-text18': 'Hard: 500 usd p/ ano Pool de apostas acima de 10K USD',
+                'multi-text19': '$50',
+                'multi-text20': 'Lucro total: 200% de lucro.',
+                'multi-text21': 'Suporte 24 horas',
+                'multi-text22': 'Quero Contratar',
+                'multi-text23': '$200',
+                'multi-text24': 'Lucro total: 200% de lucro.',
+                'multi-text25': 'Suporte 24 horas',
+                'multi-text26': 'Quero Contratar',
+                'multi-text27': '$350',
+                'multi-text28': 'Lucro total: 200% de lucro.',
+                'multi-text29': 'Suporte 24 horas',
+                'multi-text30': 'Quero Contratar',
+                'multi-text31': '$500',
+                'multi-text32': 'Lucro total: 200% de lucro.',
+                'multi-text33': 'Suporte 24 horas',
+                'multi-text34': 'Quero Contratar',
+                'multi-text36': 'Se você tem alguma dúvida entre em contato conosco clique aqui',
+                'multi-text37': 'Xbots',
+                'multi-text38': 'Regras Para Usuários',
+                'multi-text39': 'Explore a inovação nas apostas esportivas com o Xbet: sistema automatizado, análises precisas e lucros diários. Depósitos em USDT ou PIX, transparência total e suporte contínuo, proporcionando uma experiência de apostas simplificada e lucrativa.',
+                'multi-text40': 'Saques Sellers',
+                'multi-text41': '- Para sacar precisará do 2FA.',
+                'multi-text42': '- Saque todo dia das 00:00 às 23:59h.',
+                'multi-text43': '- Mínimo para saque 50 USD',
+                'multi-text44': '- 6% de taxa no PIX',
+                'multi-text45': '- 1.5% de taxa no USDT (rede)',
+                'multi-text46': 'Saques Clientes',
+                'multi-text47': '- Para sacar precisará do 2FA.',
+                'multi-text48': '- Saque todo dia das 00:00 às 23:59h.',
+                'multi-text49': '- Mínimo para saque 20 USD',
+                'multi-text50': '- 6% de taxa no PIX',
+                'multi-text51': 'Regra de plano Rôbo',
+                'multi-text52': '- Start: 50 usa p/ ano Pool de apostas até 1K USD',
+                'multi-text53': '- Mid: 200 usd p/ ano Pool de apostas até 5K USD',
+                'multi-text54': '- Senior: 350 usd p/ ano Pool de apostas até 10K USD',
+                'multi-text55': '- Hard: 500 usd p/ ano Pool de apostas acima de 10K USD',
+                'multi-text56': 'Suporte 24/7',
+                'multi-text57': 'Suporte técnico disponível 24 horas por dia, 7 dias por semana, garantindo assistência contínua.',
+                'multi-text58': '- Suporte via Whatsapp',
+                'multi-text59': '- Suporte via Ticket',
+                'multi-text60': '- Suporte via Email',
+                'multi-text61': 'Usamos tecnologia de segurança máxima.',
+                'multi-text62': '- 2FA Segurança para Saque e login',
+                'multi-text63': '- Confirmação de email',
+                'multi-text64': '- Sistema utiliza criptografia de ponta a ponta.',
+                'multi-text65': '- GDPR (Regulamento Geral de Proteção de Dados)',
+                'multi-text66': 'Aposta Segura',
+                'multi-text67': 'A Xbet traz segurança de ponta em seu Aposta.',
+                'multi-text68': '- Transparência nas transações financeiras.',
+                'multi-text69': '- Proteção avançada de dados pessoais.',
+                'multi-text70': '- Suporte dedicado e atendimento confiável.',
+                'multi-text71': '- Garantia de conformidade com normas de segurança.',
+                'multi-text72': 'Confira agora nosso App no Android!',
+                'multi-text73': 'Baixe ele agora!',
+                'multi-text74': 'Começando em breve',
+                'multi-text75': 'O horário de cada jogo dependerá das condições climáticas.',
+                'multi-text76': 'IPL Premier League 56',
+                'multi-text77': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text78': 'Starting on 12 Jan 2021',
+                'multi-text79': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text80': 'Ver agora',
+                'multi-text81': 'IPL Premier League 56',
+                'multi-text82': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text83': 'Starting on 12 Jan 2021',
+                'multi-text84': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text85': 'Ver agora',
+                'multi-text86': 'IPL Premier League 56',
+                'multi-text87': 'Confira agora nosso App no Android!',
+                'multi-text88': 'Baixe ele agora!',
+                'multi-text89': 'Ver agora',
+                'multi-text90': 'IPL Premier League 56',
+                'multi-text91': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text92': 'Starting on 12 Jan 2021',
+                'multi-text93': 'GMT 5.30 PM: 3 Hours Left',
+                'multi-text94': 'Guia Trivela: Premier League 2023/24 - Time por Tempo',
+                'multi-text95': 'Ler sobre',
+                'multi-text96': 'Coloque seu email e receba notícias atualizadas sobre o mundo Bet!',
+                'multi-text97': 'Subscribe',
+                'multi-text98': 'Sobre Nós',
+                'multi-text99': 'Somos uma empresa líder em apostas esportivas, impulsionada por robôs especializados. Maximize seus ganhos com nossa abordagem inovadora e dedicada ao sucesso.',
+                'multi-text100': 'Serviços',
+                'multi-text101': 'Xbets',
+                'multi-text102': 'Robot',
+                'multi-text103': '',
+                'multi-text104': 'Resultados',
+                'multi-text105': 'Atalhos',
+                'multi-text106': 'Home',
+                'multi-text107': 'Sobre Nós',
+                'multi-text108': 'Xbets',
+                'multi-text109': 'Blog',
+                'multi-text110': 'Business Plan',
+                'multi-text111': 'Contatos',
+                'multi-text112': '@CopyRight Todos os seus direitos reservados XBET'
+
+            },
+            'es': {
+                'multi-home': 'Inicio',
+                'multi-about': 'Sobre nosotros',
+                'multi-blog': 'Blog',
+                'multi-contact': 'Contacto',
+                'multi-idioma': 'Idioma',
+                'multi-tec': 'Tecnología SU NUEVO ROBOT DE APUESTAS DEPORTIVAS',
+                'multi-text1': 'Apueste con practicidad y seguridad utilizando la tecnología Xbot, basada en inteligencia artificial, replicando patrones de comportamiento humano a través de dispositivos y programas.',
+                'multi-btn1': '¡Regístrese ahora!',
+                'multi-text2': '100 mil Clientes',
+                'multi-text3': 'Contamos con más de 50 mil personas registradas en nuestra plataforma.',
+                'multi-text4': 'A partir de 50 USD',
+                'multi-text5': 'Apuesta Segura',
+                'multi-text6': 'Con una apuesta a partir de 50 dólares, ya puedes comenzar a apostar con nosotros...',
+                'multi-text7': 'Soporte las 24 horas, todos los días.',
+                'multi-text8': 'Soporte en todo el mundo',
+                'multi-text9': 'Ofrecemos soporte las 24 horas en todo el mundo.',
+                'multi-text10': '30 mil vendedores activos',
+                'multi-text11': 'Vendedores Activos',
+                'multi-text12': 'Actualmente, tenemos más de 30 mil vendedores activos en nuestra plataforma.',
+                'multi-text13': 'REGLAS Y PLANES DE CLIENTE ROBOT',
+                'multi-text14': 'Sea un Cliente Xbot',
+                'multi-text15': 'START: 50 USD por año Pool de apuestas hasta 1,000 USD',
+                'multi-text16': 'MID: 200 USD por año Pool de apuestas hasta 5,000 USD',
+                'multi-text17': 'SENIOR: 350 USD por año Pool de apuestas hasta 10,000 USD',
+                'multi-text18': 'HARD: 500 USD por año Pool de apuestas por encima de 10,000 USD',
+                'multi-text19': '$50',
+                'multi-text20': 'Ganancia total: 200% de ganancia.',
+                'multi-text21': 'Soporte las 24 horas',
+                'multi-text22': 'Quiero Contratar',
+                'multi-text23': '$200',
+                'multi-text24': 'Ganancia total: 200% de ganancia.',
+                'multi-text25': 'Soporte las 24 horas',
+                'multi-text26': 'Quiero Contratar',
+                'multi-text27': '$350',
+                'multi-text28': 'Ganancia total: 200% de ganancia.',
+                'multi-text29': 'Soporte las 24 horas',
+                'multi-text30': 'Quiero Contratar',
+                'multi-text31': '$500',
+                'multi-text32': 'Ganancia total: 200% de ganancia.',
+                'multi-text33': 'Soporte las 24 horas',
+                'multi-text34': 'Quiero Contratar',
+                'multi-text36': 'Si tiene alguna pregunta, comuníquese con nosotros haciendo clic aquí',
+                'multi-text37': 'Xbots',
+                'multi-text38': 'Reglas para Usuarios',
+                'multi-text39': 'Explore la innovación en las apuestas deportivas con Xbet: sistema automatizado, análisis precisos y ganancias diarias. Depósitos en USDT o PIX, total transparencia y soporte continuo, brindando una experiencia de apuestas simplificada y rentable.',
+                'multi-text40': 'Retiros de Vendedores',
+                'multi-text41': '- Para retirar, necesitará 2FA.',
+                'multi-text42': '- Retire todos los días de 00:00 a 23:59 h.',
+                'multi-text43': '- Retiro mínimo 50 USD',
+                'multi-text44': '- Tarifa del 6% en PIX',
+                'multi-text45': '- Tarifa del 1.5% en USDT (red)',
+                'multi-text46': 'Retiros de Clientes',
+                'multi-text47': '- Para retirar, necesitará 2FA.',
+                'multi-text48': '- Retire todos los días de 00:00 a 23:59 h.',
+                'multi-text49': '- Retiro mínimo 20 USD',
+                'multi-text50': '- Tarifa del 6% en PIX',
+                'multi-text51': 'Regla del Plan Robot',
+                'multi-text52': '- Inicio: 50 USD por año Pool de apuestas hasta 1,000 USD',
+                'multi-text53': '- Medio: 200 USD por año Pool de apuestas hasta 5,000 USD',
+                'multi-text54': '- Senior: 350 USD por año Pool de apuestas hasta 10,000 USD',
+                'multi-text55': '- Difícil: 500 USD por año Pool de apuestas por encima de 10,000 USD',
+                'multi-text56': 'Soporte 24/7',
+                'multi-text57': 'Soporte técnico disponible las 24 horas del día, los 7 días de la semana, garantizando asistencia continua.',
+                'multi-text58': '- Soporte a través de Whatsapp',
+                'multi-text59': '- Soporte a través de Ticket',
+                'multi-text60': '- Soporte a través de Email',
+                'multi-text61': 'Utilizamos tecnología de seguridad máxima.',
+                'multi-text62': '- 2FA Seguridad para retiro e inicio de sesión',
+                'multi-text63': '- Confirmación por correo electrónico',
+                'multi-text64': '- El sistema utiliza cifrado de extremo a extremo.',
+                'multi-text65': '- GDPR (Reglamento General de Protección de Datos)',
+                'multi-text66': 'Apuesta Segura',
+                'multi-text67': 'Xbet brinda seguridad de alta calidad en su Apuesta.',
+                'multi-text68': '- Transparencia en las transacciones financieras.',
+                'multi-text69': '- Protección avanzada de datos personales.',
+                'multi-text70': '- Soporte dedicado y servicio confiable.',
+                'multi-text71': '- Garantía de cumplimiento de normas de seguridad.',
+                'multi-text72': '¡Vea ahora nuestra aplicación en Android!',
+                'multi-text73': '¡Descárgalo ahora!',
+                'multi-text74': 'Comenzando pronto',
+                'multi-text75': 'El horario de cada juego dependerá de las condiciones climáticas.',
+                'multi-text76': 'IPL Premier League 56',
+                'multi-text77': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text78': 'Comienza el 12 de enero de 2021',
+                'multi-text79': 'GMT 5.30 PM: 3 horas restantes',
+                'multi-text80': 'Ver ahora',
+                'multi-text81': 'IPL Premier League 56',
+                'multi-text82': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text83': 'Comienza el 12 de enero de 2021',
+                'multi-text84': 'GMT 5.30 PM: 3 horas restantes',
+                'multi-text85': 'Ver ahora',
+                'multi-text86': 'IPL Premier League 56',
+                'multi-text87': '¡Vea ahora nuestra aplicación en Android!',
+                'multi-text88': '¡Descárgalo ahora!',
+                'multi-text89': 'Ver ahora',
+                'multi-text90': 'IPL Premier League 56',
+                'multi-text91': 'Vinoo Mankad Rd, Churchgate, Mumbai, Maharashtra 400020, India',
+                'multi-text92': 'Comienza el 12 de enero de 2021',
+                'multi-text93': 'GMT 5.30 PM: 3 horas restantes',
+                'multi-text94': 'Guía Trivela: Premier League 2023/24 - Equipo por equipo',
+                'multi-text95': 'Leer sobre',
+                'multi-text96': '¡Ingrese su correo electrónico y reciba noticias actualizadas sobre el mundo de las apuestas!',
+                'multi-text97': 'Suscribirse',
+                'multi-text98': 'Sobre nosotros',
+                'multi-text99': 'Somos una empresa líder en apuestas deportivas, impulsada por robots especializados. Maximice sus ganancias con nuestro enfoque innovador y dedicado al éxito.',
+                'multi-text100': 'Servicios',
+                'multi-text101': 'Xbets',
+                'multi-text102': 'Robot',
+                'multi-text103': '',
+                'multi-text104': 'Resultados',
+                'multi-text105': 'Atajos',
+                'multi-text106': 'Inicio',
+                'multi-text107': 'Sobre nosotros',
+                'multi-text108': 'Xbets',
+                'multi-text109': 'Blog',
+                'multi-text110': 'Plan de Negocios',
+                'multi-text111': 'Contactos',
+                'multi-text112': '@CopyRight Todos sus derechos reservados XBET'
+    }
+        };
+
+        function changeLanguage(lang) {
+            const elements = document.querySelectorAll('[id^="multi-"]');
+            
+            elements.forEach(element => {
+                const key = element.id;
+                element.textContent = translations[lang][key];
+            });
+        }
+
+        // Inicialmente, definimos os textos para o idioma padrão (português)
+        changeLanguage('en');
+    </script>
 
     <!-- all plugins here -->
     <script src="assets/js/vendor.js"></script>
