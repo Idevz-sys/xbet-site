@@ -143,6 +143,27 @@
         /*------------------------------------------------
             intro-slider
         ------------------------------------------------*/
+        
+        
+          /*------------------------------------------------
+         local storge
+        ------------------------------------------------*/
+
+        localStorage.setItem('preferredLanguage', lang);
+    }
+
+    // Verificar se há uma preferência de idioma armazenada e aplicá-la
+    const preferredLanguage = localStorage.getItem('preferredLanguage');
+    if (preferredLanguage) {
+        changeLanguage(preferredLanguage);
+    } else {
+        // Se não houver preferência, definir o idioma padrão como 'pt'
+        changeLanguage('pt');
+    }
+
+          /*------------------------------------------------
+         local storge
+        ------------------------------------------------*/
         $('.intro-slider').owlCarousel({
             loop: true,
             margin: 30,
@@ -443,4 +464,4 @@
 
 
 
-})(jQuery);
+(jQuery); 

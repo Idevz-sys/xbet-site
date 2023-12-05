@@ -62,9 +62,10 @@
                         <li class="menu-item-has-children current-menu-item">
                             <a  id="multi-idioma" href="#">Idioma</a>
                             <ul id="submenu" class="sub-menu">
-                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('en');"><img src="assets/img/idiomas/3.png" alt="">english</a></li>
-                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('es');"><img src="assets/img/idiomas/2.png" alt="">español</a></li>
-                                <li><a href="#" onclick="event.preventDefault(); changeLanguage('pt');"><img src="assets/img/idiomas/1.png" alt="">Portugues</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'en'); changeLanguage('en');"><img src="assets/img/idiomas/3.png" alt="">English</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'es'); changeLanguage('es');"><img src="assets/img/idiomas/2.png" alt="">Espanõl</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'pt'); changeLanguage('pt');"><img src="assets/img/idiomas/1.png" alt="">Portugues</a></li>
+
 
                             </ul>
                         </li>
@@ -85,8 +86,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 align-self-center">
                     <div class="banner-inner text-center">
-                        <h1 id="multi-tec" style="font-size: 35px;" class="b-animate-2 title">Tecnologia <span> ХВОТ</span> 
-                            O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS</h1>
+                        <h1 style="font-size: 35px;" class="b-animate-2 title"><span id="multi-tec" class="change-color">TECNOLOGIA</span> <span id="multi-tec1">ХВОT</span>
+                            <span id="multi-tec2" class="change-color">O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS</span></h1>
                         <b>
                             <p id="multi-text1" style="color: #11e70b;" class="b-animate-4"><strong>Aposte com praticidade e segurança usando a tecnologia Xbot, baseada em IA, replicando padrões comportamentais humanos por meio de dispositivos e programas.</strong></p>
                         </b>
@@ -822,7 +823,9 @@
                 'multi-blog': 'Blog',
                 'multi-contact': 'Contact',
                 'multi-idioma': 'Language',
-                'multi-tec': 'Technology YOUR NEW SPORTS BETTING ROBOT',
+                'multi-tec': 'TECHNOLOGY',
+                'multi-tec1': 'XBOT',
+                'multi-tec2': 'YOUR NEW SPORTS BETTING ROBOT',
                 'multi-text1': 'Bet with practicality and security using Xbot technology, based on AI, replicating human behavioral patterns through devices and programs.',
                 'multi-btn1': 'Register now!',
                 'multi-text2': '100 thousand Customers',
@@ -943,7 +946,9 @@
                 'multi-blog': 'Blog',
                 'multi-contact': 'Contato',
                 'multi-idioma': 'Idioma',
-                'multi-tec': 'Tecnologia ХВОТ O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS',
+                'multi-tec': 'TECNOLOGIA ',
+                'multi-tec1': ' ХВОТ ',
+                'multi-tec2': ' O SEU NOVO ROBÔ DE APOSTAS ESPORTIVAS',
                 'multi-text1': 'Aposte com praticidade e segurança usando a tecnologia Xbot, baseada em IA, replicando padrões comportamentais humanos por meio de dispositivos e programas.',
                 'multi-btn1': 'Registre-se já!',
                 'multi-text2': '100 mil Clientes',
@@ -1064,7 +1069,9 @@
                 'multi-blog': 'Blog',
                 'multi-contact': 'Contacto',
                 'multi-idioma': 'Idioma',
-                'multi-tec': 'Tecnología SU NUEVO ROBOT DE APUESTAS DEPORTIVAS',
+                'multi-tec': ' TECNOLOGÍA ',
+                'multi-tec1': '  XBOT',
+                'multi-tec2': ' SU NUEVO ROBOT DE APUESTAS DEPORTIVAS',
                 'multi-text1': 'Apueste con practicidad y seguridad utilizando la tecnología Xbot, basada en inteligencia artificial, replicando patrones de comportamiento humano a través de dispositivos y programas.',
                 'multi-btn1': '¡Regístrese ahora!',
                 'multi-text2': '100 mil Clientes',
@@ -1187,10 +1194,22 @@
                 const key = element.id;
                 element.textContent = translations[lang][key];
             });
+
+            // Armazenar a preferência de idioma no localStorage
+            localStorage.setItem('preferredLanguage', lang);
         }
 
+        // Verificar se há uma preferência de idioma armazenada e aplicá-la
+        const preferredLanguage = localStorage.getItem('preferredLanguage');
+        if (preferredLanguage) {
+            changeLanguage(preferredLanguage);
+        } else {
+            // Se não houver preferência, definir o idioma padrão como 'pt'
+            changeLanguage('en');
+        }
+        
         // Inicialmente, definimos os textos para o idioma padrão (português)
-        changeLanguage('en');
+
     </script>
 
     <!-- all plugins here -->
