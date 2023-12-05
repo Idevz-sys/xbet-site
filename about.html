@@ -32,51 +32,50 @@
     </div>
     <!-- search popup end-->
 
-   <!-- navbar start -->
-   <div class="navbar-area">
-    <nav class="navbar navbar-area navbar-expand-lg">
-        <div class="container nav-container">
-            <div class="responsive-mobile-menu">
-                <button class="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu" 
-                aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon-left"></span>
-                    <span class="icon-right"></span>
-                </button>
-            </div>
-            <div class="logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
-            </div>
-            <div class="nav-left-part">
-                  
-            </div>
-            <div class="nav-right-part nav-right-part-mobile">
-                <a class="search-bar-btn" href="#"><i class="fa fa-search"></i></a>
-            </div>
-            <div class="collapse navbar-collapse" id="edumint_main_menu">
-                <ul class="navbar-nav menu-open text-end">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">Sobre nós</a></li>
-                    <li><a href="xbets.html">Xbets</a></li>
-                    <li><a href="blog.html">Blog</a></li></li>
-                    <li><a href="contact.html">Contato</a></li>
-                    <li class="menu-item-has-children current-menu-item">
-                        <a href="#">idioma</a>
-                        <ul id="submenu" class="sub-menu">
-                            <li><a href=""><img  src="assets/img/idiomas/1.png" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/idiomas/2.png" alt=""></a></li>
-                            <li><a href=""><img src="assets/img/idiomas/3.png" alt=""></a></li>
-                        </ul>
-                    </li>
+    <div class="navbar-area">
+        <nav class="navbar navbar-area navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                </div>
+                <div class="nav-left-part">
+                      
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <a class="search-bar-btn" href="#"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="edumint_main_menu">
+                    <ul class="navbar-nav menu-open text-end">
+                        <li><a id="multi-home" href="index.html">Home</a></li>
+                        <li><a id="multi-about" href="about.html">Sobre nós</a></li>
+                        <li><a id="multi-blog" href="blog.html">Blog</a></li></li>
+                        <li><a id="multi-contact" href="contact.html">Contato</a></li>
+                        <li class="menu-item-has-children current-menu-item">
+                            <a  id="multi-idioma" href="#">Idioma</a>
+                            <ul id="submenu" class="sub-menu">
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'en'); changeLanguage('en');"><img src="assets/img/idiomas/3.png" alt="">English</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'es'); changeLanguage('es');"><img src="assets/img/idiomas/2.png" alt="">Espanõl</a></li>
+                                <li><a href="#" onclick="event.preventDefault(); window.localStorage.setItem('language', 'pt'); changeLanguage('pt');"><img src="assets/img/idiomas/1.png" alt="">Portugues</a></li>
 
-                </ul>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">
+                    <a id="btn-color" class="btn btn-base" href="#">Login<i class="fas fa-user-tie ms-1"></i></a>
+                </div>
             </div>
-            <div class="nav-right-part nav-right-part-desktop">
-                <a id="btn-color" class="btn btn-base" href="tipster.html">Login<i class="fas fa-user-tie ms-1"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-<!-- navbar end -->
+        </nav>
+    </div>
 
     <!-- breadcrumb start -->
     <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/bg/13.png')">
