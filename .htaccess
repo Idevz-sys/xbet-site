@@ -1,16 +1,13 @@
 RewriteEngine On
 
-# Remove a extensão .html dos URLs
+# Remover a extensão .html dos URLs
+RewriteCond %{THE_REQUEST} \.html
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Adicionar a extensão .html internamente
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^([^/]+)/?$ $1.html [L]
-# Redirecione requisições diretas para index.html
-RewriteCond %{THE_REQUEST} /index\.html [NC]
-RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)$ $1.html [L]
 
-# Defina a página inicial sem o nome do arquivo
-DirectoryIndex index
-
-# Redirecione requisições diretas para index.html
-RewriteCond %{THE_REQUEST} /index\.html [NC]
-RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+# Definir a página inicial sem o nome do arquivo
+DirectoryIndex index.html
