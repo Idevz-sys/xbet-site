@@ -1,0 +1,9 @@
+# Ativar o módulo de reescrita
+RewriteEngine On
+
+# Remover a extensão .html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)/$ $1.html
+RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.html
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ /$1/$2/$3.html
