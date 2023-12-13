@@ -173,32 +173,33 @@
 	    bottom: 20px;
 	}
 }
+
 @media all and (max-width: 360px) {
 	.service-bg {
-	    padding: 90px 25px 10px;
-	    margin-top: -120px;
+	  padding: 90px 25px 10px;
+	  margin-top: -120px;
 	}
 	.banner-inner .title {
-	    font-size: 35px;
+	  font-size: 35px;
 	}
 	.section-title .title {
 		font-size: 30px;
 	}
 	.nav-right-part {
-	    display: none;
+	  display: none;
 	}
 	.profit-tabs-inner li {
-	    width: 50%;
-	    margin-bottom: 15px;
+	  width: 50%;
+	  margin-bottom: 15px;
 	}
 	.profit-tabs-inner li:nth-child(2) a,
 	.profit-tabs-inner li:nth-child(4) a {
-	    margin-right: 0;
+	  margin-right: 0;
 	}
 	.predict-table-inner .table-head h6 {
 		font-size: 14px;
 	}
 	.team-details-area .price-list li {
-	    font-size: 12px;
+	  font-size: 12px;
 	}
 }

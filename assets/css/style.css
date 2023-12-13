@@ -3783,13 +3783,52 @@ ul {
   /********** client-area **********/
   .client-slider {
     cursor: pointer;
+    position: relative;
   }
   .client-slider .item img {
     width: auto;
     margin: auto;
   }
-  .client-slider .owl-nav {
+  /* .client-slider .owl-nav {
     display: none;
+  } */
+
+  .client-slider .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+  }
+
+  .client-slider.owl-carousel.owl-loaded.owl-drag {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .client-slider.owl-carousel.owl-loaded.owl-drag .owl-stage-outer {
+    z-index: 99999;
+  }
+
+  button.owl-prev {
+    background-color: #027b5b;
+    color: white;
+    border-color: #027b5b;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  button.owl-next {
+    background-color: #027b5b;
+    color: white;
+    border-color: #027b5b;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
   }
 
   /************** signin area **************/
