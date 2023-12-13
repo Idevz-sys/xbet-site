@@ -148,7 +148,7 @@
         ------------------------------------------------*/
 
         localStorage.setItem('preferredLanguage', lang);
-    }
+    })
 
     // Verificar se há uma preferência de idioma armazenada e aplicá-la
     const preferredLanguage = localStorage.getItem('preferredLanguage');
