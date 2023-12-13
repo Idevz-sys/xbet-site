@@ -10,3 +10,7 @@ RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
 
 # Defina a página inicial sem o nome do arquivo
 DirectoryIndex index
+
+# Redirecione requisições diretas para index.html
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
