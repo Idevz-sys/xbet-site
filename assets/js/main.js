@@ -29,32 +29,30 @@
             $(this).toggleClass('open');
             $('.navbar-area .navbar-collapse').toggleClass('sopen');
         });
-    
+        
         // mobile menu
         if ($(window).width() < 992) {
             $(".in-mobile").clone().appendTo(".sidebar-inner");
+        
             $(".in-mobile ul li.menu-item-has-children").append('<i class="fas fa-chevron-right"></i>');
-            $('<i class="fas fa-chevron-right"></i>').insertAfter("");
-
+        
             $(".menu-item-has-children a").on('click', function(e) {
-                // e.preventDefault();
-
+                e.preventDefault();
                 $(this).siblings('.sub-menu').animate({
                     height: "toggle"
                 }, 300);
+                $(this).find('i').toggleClass('rotate-icon'); // Adiciona uma classe para girar o ícone de seta
             });
         }
-
+        
         var menutoggle = $('.menu-toggle');
         var mainmenu = $('.navbar-nav');
         
         menutoggle.on('click', function() {
-            if (menutoggle.hasClass('is-active')) {
-                mainmenu.removeClass('menu-open');
-            } else {
-                mainmenu.addClass('menu-open');
-            }
+            menutoggle.toggleClass('is-active');
+            mainmenu.toggleClass('menu-open');
         });
+        
 
         /*--------------------------------------------------
             select onput
