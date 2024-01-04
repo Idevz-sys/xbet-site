@@ -1,1 +1,1 @@
-# xbet-site
+# xbot-site
