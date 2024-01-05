@@ -436,6 +436,10 @@ code {
   max-width: 100%;
 }
 
+.telegram {
+  color: #0088cc;
+}
+
 .alignwide {
   max-width: 1100px;
 }
