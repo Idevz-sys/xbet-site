@@ -29,8 +29,6 @@
 
 <body>
 
-
-
     <!-- search popup start-->
     <div class="body-overlay" id="body-overlay"></div>
     <div class="td-search-popup" id="td-search-popup">
@@ -212,7 +210,7 @@
                             <img src="assets/img/counter/5.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><span class="counter">58903</span></h4>
+                            <h4><span class="counter" id="totalClients">110</span></h4>
                             <h5 id="multi-textv13">Total Clientes</h5>
                         </div>
                     </div>
@@ -223,7 +221,7 @@
                             <img src="assets/img/counter/6.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><span class="counter">28030</span></h4>
+                            <h4><span class="counter" id="totalSellers">100</span></h4>
                             <h5 id="multi-textv14">Total Sellers</h5>
                         </div>
                     </div>
@@ -234,7 +232,7 @@
                             <img src="assets/img/counter/7.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4><span class="counter">93</span>.24%</h4>
+                            <h4><span class="counter">97,27</span>%</h4>
                             <h5 id="multi-textv15">Acertividade Rôbos</h5>
                         </div>
                     </div>
@@ -305,8 +303,9 @@
                         <div class="widget widget_nav_menu">
                             <h4 id="multi-textv19" class="widget-title">Serviços</h4>
                             <ul>
-                                <li><a id="multi-textv20" href="#">XBots</a></li>
-                                <li><a id="multi-textv21" href="#">Robot</a></li>
+                                <li><a id="multi-textv20" href="xbots.html">XBots</a></li>
+                                <li><a href="https://dashboard.x-bot-ai.com/sign-in">Login</a></li>
+                                <li><a href="https://dashboard.x-bot-ai.com/sign-up/user/xbetbot/5">Register</a></li>
                                 <li><a id="multi-textv22" href="#"></a></li>
                                 <!-- <li><a id="multi-textv23" href="#">Resultados</a></li> -->
                             </ul>
@@ -510,7 +509,40 @@
             changeLanguage('en');
         }
 
-        // Inicialmente, definimos os textos para o idioma padrão (português)
+        // Função para atualizar os valores diariamente
+        function updateValues() {
+            // Recupera os valores do localStorage ou usa valores padrão se não houver
+            const totalClients = parseInt(localStorage.getItem("totalClients")) || 110;
+            const totalSellers = parseInt(localStorage.getItem("totalSellers")) || 100;
+            const sportingEvents = parseInt(localStorage.getItem("sportingEvents")) || 93;
+
+            // Simula um aumento aleatório nos valores
+            const increaseClients = Math.floor(Math.random() * 10) + 1;
+            const increaseSellers = Math.floor(Math.random() * 10) + 1;
+            const increaseEvents = Math.floor(Math.random() * 10) + 1;
+
+            // Atualiza os valores
+            const updatedClients = totalClients + increaseClients;
+            const updatedSellers = totalSellers + increaseSellers;
+            const updatedEvents = sportingEvents + increaseEvents;
+
+            // Atualiza os elementos na página
+            document.getElementById("totalClients").textContent = updatedClients;
+            document.getElementById("totalSellers").textContent = updatedSellers;
+            document.getElementById("sportingEvents").textContent = updatedEvents;
+
+            // Salva os valores atualizados no localStorage
+            localStorage.setItem("totalClients", updatedClients);
+            localStorage.setItem("totalSellers", updatedSellers);
+            localStorage.setItem("sportingEvents", updatedEvents);
+        }
+
+        // Chama a função de atualização ao carregar a página
+        updateValues();
+
+        // Define um intervalo para chamar a função de atualização a cada 24 horas (86400000 milissegundos)
+        setInterval(updateValues, 86400000);
+
 
     </script>
 
