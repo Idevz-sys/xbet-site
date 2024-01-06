@@ -3215,8 +3215,10 @@ ul {
   }
   #color-card {
     background-color: #00000039;
-    height: 350px;
+    height: 500px;
     border-radius: 23px;
+    padding-top: 30px;
+    overflow: auto;
   }
 
   .single-intro-inner {
